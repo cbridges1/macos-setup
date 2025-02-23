@@ -1,9 +1,4 @@
 For setup:
 ```
-curl s <repo> | bash -s
-```
-Login to github
-For installs:
-```
-curl -s <repo> | bash -s
+curl s https://raw.githubusercontent.com/cbridges1/macos-setup/refs/heads/main/install.sh | bash -s -- github-token
 ```
