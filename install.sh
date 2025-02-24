@@ -1,3 +1,6 @@
+cd /opt/homebrew/bin/
+PATH=$PATH:/opt/homebrew/bin
+echo export PATH=$PATH:/opt/homebrew/bin >> ~/.zshrc
 brew install --cask github
 mkdir /Users/$1/source
 cd /Users/$1/source
