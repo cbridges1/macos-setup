@@ -1,6 +1,8 @@
 cd /opt/homebrew/bin/
-PATH=$PATH:/opt/homebrew/bin
+# PATH=$PATH:/opt/homebrew/bin
 echo export PATH=$PATH:/opt/homebrew/bin >> ~/.zshrc
+mkdir ~/.nvm
+echo export NVM_DIR="$HOME/.nvm" >> ~/.zshrc
 brew install --cask github
 mkdir /Users/$1/source
 cd /Users/$1/source
