@@ -4,8 +4,12 @@ curl -O https://raw.githubusercontent.com/cbridges1/macos-setup/refs/heads/main/
 mkdir ~/.nvm
 source .zshrc
 source .zprofile
-mkdir /Users/$1/source
-cd /Users/$1/source
-git clone https://cbridges1:$2@github.com/cbridges1/macos-config.git
+mkdir source
+cd source
+# mkdir /Users/$1/source
+# cd /Users/$1/source
+mkdir config
+cd config
+git clone https://cbridges1:$1@github.com/cbridges1/macos-config.git
 cd macos-config
-bash setup.sh
+bash setup.sh $1
