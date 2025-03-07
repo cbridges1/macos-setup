@@ -5,7 +5,7 @@ cd ~
 # source .zshrc
 # source .zprofile
 # mkdir source
-# cd source
+cd source
 # mkdir config
 cd config
 # git clone https://cbridges1:$1@github.com/cbridges1/macos-config.git
