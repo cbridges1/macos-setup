@@ -4,10 +4,9 @@ cd ~
 # mkdir ~/.nvm
 # source .zshrc
 # source .zprofile
-# mkdir source
-cd source
-# mkdir config
-cd config
+# mkdir ~/source
+# mkdir ~/source/config
+cd ~/source/config
 # git clone https://cbridges1:$1@github.com/cbridges1/macos-config.git
 cd macos-config
 bash setup.sh $1
